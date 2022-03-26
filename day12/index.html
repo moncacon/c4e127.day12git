@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <button class="openchatbox" onclick="openForm()">Chat</button>
+    <div class="Chatbox" id="myForm">
+      <form action="" class="form-container">
+        <h1>Chatbox</h1>
+       <label for="a"><b>viết lời nhắn</b></label>
+        <textarea placeholder="Bạn hãy nhập lời nhắn.." name="a" required></textarea>
+       <button type="submit" class="btn">Gửi</button>
+        <button type="button" class="btn closechatbox" onclick="closeForm()">Đóng</button>
+      </form>
+    </div>
+    <script src="/app.js"></script>
+</body>
+</html>
